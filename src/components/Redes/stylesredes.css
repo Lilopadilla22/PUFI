@@ -1,0 +1,46 @@
+.containerRedes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    height: 30%;
+}
+
+.containerRedes>p{
+    font-size: 20px;
+    color: #CFE3B4;
+    letter-spacing: 1px;
+}
+
+.containerRedes>span{
+    font-size: 45px;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.containerRedesImg {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    gap: 2px;
+}
+
+.cardRedes{
+    width: 33%;
+    background-position: center;    
+    background-size: cover;
+    height: 50%;
+    min-width: 100px;
+}
+
+
+
+
+
+
