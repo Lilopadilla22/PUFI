@@ -1,14 +1,10 @@
+function ImagenRedesContainer({ image }) {
+  return (
+    <div
+      className="cardRedes"
+      style={{ backgroundImage: `url(${image}` }}
+    ></div>
+  );
+}
 
-
-function CardRedes({image}) {
-    return (
-  
-      <div className='cardRedes' style={{backgroundImage: `url(${image}`}}>
-
-      </div>
-  
-   
-    );
-  }
-  
-  export default CardRedes;
+export default ImagenRedesContainer;

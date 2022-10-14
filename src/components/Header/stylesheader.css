@@ -1,0 +1,32 @@
+header {
+  background-image: URL("../../assets/img/puffy-principal.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 15px 90px rgba(50, 50, 50, 0.75);
+}
+
+.App-header {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: space-around;
+}
+
+.botonshop button {
+  padding: 10px 40px;
+  border-color: #ffff;
+  opacity: 10px;
+  background-color: transparent;
+  color: #ffff;
+  border: solid 1px;
+}
+
+.anuncio {
+  text-align: center;
+  font-size: 30px;
+}

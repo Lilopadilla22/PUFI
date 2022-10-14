@@ -1,0 +1,56 @@
+.formSuscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forminformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  line-height: 2em;
+}
+
+.forminformation > p {
+  font-size: 20px;
+  color: #cfe3b4;
+  letter-spacing: 1px;
+}
+
+.suscribe {
+  font-size: 45px;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.message {
+  font-size: 30px;
+  position: center;
+  color: rgb(54, 198, 148);
+}
+
+.formbutton {
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  width: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.formbutton > input {
+  border: none;
+  padding-left: 10px;
+  flex-grow: 0.9;
+}
+
+.formbutton > button {
+  border: none;
+  background-color: none;
+  background: none;
+  padding-right: 10px;
+}

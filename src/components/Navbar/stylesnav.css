@@ -1,0 +1,83 @@
+.navbar {
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  flex-wrap: wrap;
+  width: 25%;
+  height: 50px;
+  margin: 5px;
+}
+
+.ImgLogo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.seccion {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 5px;
+  justify-content: center;
+}
+
+.seccion-compras {
+  flex-wrap: wrap;
+  display: flex;
+  width: 25%;
+  margin: 5px;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.seccionitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-right: 1px solid white;
+  font-size: 15px;
+}
+
+.seccionitemlast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.seccion-compras>span {
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.navbar.space-between {
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+span > select {
+  border: none;
+  color: white;
+  background-color: transparent;
+  border-right: 1px solid rgb(255, 240, 240);
+}
+
+.seccionitemlast .seccionitem>span {
+  padding: 5px;
+  font-size: 15px;
+}
+
+
