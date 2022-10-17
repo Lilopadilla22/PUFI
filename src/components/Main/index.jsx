@@ -1,4 +1,4 @@
-import "./stylesbody.css";
+import "./stylesmain.css";
 import React from "react";
 import ContainerRedes from '../ContainerRedes/ContainerRedes';
 import Form from '../Form';
