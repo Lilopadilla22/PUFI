@@ -1,5 +1,7 @@
 import "./stylesbody.css";
 import React from "react";
+import ContainerRedes from '../ContainerRedes/ContainerRedes';
+import Form from '../Form';
 import ImageContainer from "../Cards/ImageContainer";
 import CardDescription from "../Cards/CardDescription";
 import sombrillas from "../../assets/img/sombrillas.jpg";
@@ -11,9 +13,11 @@ import bolsito from "../../assets/img/bolsito.jpg";
 import nap from "../../assets/img/nap.jpg";
 import napsillon from "../../assets/img/pufy.jpg";
 
-function Body() {
+function Main() {
   return (
+    <>
     <div className="containerBody">
+      
       <ImageContainer image={sombrillas}>
         <button url='/hola' type="submit" className="bottonCard">SHOP</button>
       </ImageContainer>
@@ -32,7 +36,13 @@ function Body() {
 
       <ImageContainer image={napsillon} />
     </div>
+
+    <ContainerRedes />
+
+    <Form />
+
+    </>
   );
 }
 
-export default Body;
+export default Main;

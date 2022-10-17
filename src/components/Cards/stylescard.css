@@ -7,6 +7,7 @@
   justify-content: center;
   background-position: center;
   background-size: cover;
+  gap: 30px;
 }
 
 .containerCard > h4 {
@@ -17,6 +18,7 @@
 
 .containerCard > p {
   text-align: center;
+  font-size: 10px;
 }
 
 .containerCard > img {
@@ -26,4 +28,6 @@
 
 .enlacesvermas {
   background-color: none;
+  font-size: 12px;
+  text-decoration: none;
 }

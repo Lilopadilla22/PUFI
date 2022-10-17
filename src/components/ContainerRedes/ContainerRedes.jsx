@@ -20,7 +20,6 @@ function Redes() {
         <ImagenRedesContainer image={bolsa} />
         <ImagenRedesContainer image={bolsito} />
         <ImagenRedesContainer image={nap} />
-
       </div>
     </div>
   );
